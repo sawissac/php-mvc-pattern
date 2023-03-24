@@ -1,14 +1,3 @@
-<?php
-require('./function.php');
-require('./database.php');
-
-// $result = mysqli_query($conn, "select * from user limit 5");
-
-// while($row = mysqli_fetch_assoc($result)){
-//     dd($row);
-// }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +24,7 @@ require('./database.php');
       </div>
       <div class="navbar-text">
         <a href="/login"></a>
-        <a href="/register.php"></a>
+        <a href="/register"></a>
       </div>
     </div>
   </div>

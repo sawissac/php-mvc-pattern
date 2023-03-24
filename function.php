@@ -4,3 +4,7 @@ function dd($value){
     var_dump($value);
     echo '</pre>';
 }
+
+function base_path($file){
+    return BASE_PATH . $file;
+}

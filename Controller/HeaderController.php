@@ -7,7 +7,7 @@ require('../Models/HeaderModel.php');
 use Models\HeaderModel;
 
 class HeaderController{
-    private $headerModel;
+    private static $headerModel;
 
     public function __construct() {
         $this->headerModel = new HeaderModel();
