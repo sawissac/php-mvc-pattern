@@ -18,6 +18,7 @@ class HeaderController{
     
     public function output(){
         $data = $this->headerModel->getType();
+        extract(['data'=> $data]);
         include('../View/HeaderView.php');
     }
 }
